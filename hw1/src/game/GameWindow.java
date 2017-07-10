@@ -22,6 +22,7 @@ public class GameWindow extends JFrame{
     BufferedImage playerleft;
     BufferedImage playerright;
     private  int playerY ;
+    private  int py;
     BufferedImage backBufferImage;
     Graphics2D backBufferGraphics2D;
 
@@ -53,20 +54,19 @@ public class GameWindow extends JFrame{
                 switch (e.getKeyCode()){
                     case KeyEvent.VK_RIGHT:
                         if(playerX <= X)
-                        playerX += 5;
-//                        repaint();
+                            playerX += 5;
                         break;
                     case KeyEvent.VK_LEFT:
                         if (playerX > 0)
-                        playerX -=5;
+                            playerX -=5;
                         break;
                     case KeyEvent.VK_UP:
                         if(playerY >= player.getHeight())
-                        playerY-=5;
+                            playerY-=5;
                         break;
                     case KeyEvent.VK_DOWN:
                         if(playerY < y)
-                        playerY += 5;
+                            playerY += 5;
                         break;
                     default:
                         break;
@@ -81,28 +81,18 @@ public class GameWindow extends JFrame{
     }
 
     public void run(){
-        int one = 1;
+        py = this.getHeight() - backgroud.getHeight();
         while(true){
             try {
                 Thread.sleep(17);
                 backBufferGraphics2D.setColor(Color.BLACK);
                 backBufferGraphics2D.fillRect(0,0,this.getWidth(),this.getHeight());
-                int high = backgroud.getHeight();
-                if(one == 1)
-                for (int i = high; i !=this.getHeight(); i--)
-                {
-                backBufferGraphics2D.drawImage(backgroud, 0,this.getHeight() - i , null);
+
+                if(py!=0) py++;
+                backBufferGraphics2D.drawImage(backgroud, 0, py, null);
                 backBufferGraphics2D.drawImage(player, playerX, playerY , null);
                 Graphics2D g2d = (Graphics2D)this.getGraphics();
                 g2d.drawImage(backBufferImage, 0, 0 , null);
-                one = 2;
-                }
-                else{
-                    backBufferGraphics2D.drawImage(backgroud, 0,0 , null);
-                    backBufferGraphics2D.drawImage(player, playerX, playerY , null);
-                    Graphics2D g2d = (Graphics2D)this.getGraphics();
-                    g2d.drawImage(backBufferImage, 0, 0 , null);
-                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
 
