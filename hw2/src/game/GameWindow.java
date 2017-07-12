@@ -30,7 +30,7 @@ public class GameWindow extends JFrame{
     boolean downPress;
     boolean rightPress;
     boolean leftPress;
-    boolean spacePress;
+    boolean xPress;
     boolean check;
 
     int backGroundX;
@@ -102,7 +102,7 @@ public class GameWindow extends JFrame{
         if (leftPress){
             dx -= 5;
         }
-        if (spacePress){
+        if (xPress){
             if (check) {
                 creatNewSpell();
                 start = System.currentTimeMillis();
@@ -202,8 +202,8 @@ public class GameWindow extends JFrame{
                     case KeyEvent.VK_DOWN:
                         downPress = true;
                         break;
-                    case KeyEvent.VK_SPACE:
-                        spacePress = true;
+                    case KeyEvent.VK_X:
+                        xPress = true;
                         break;
                     default:
                         break;
@@ -225,8 +225,8 @@ public class GameWindow extends JFrame{
                     case KeyEvent.VK_DOWN:
                         downPress = false;
                         break;
-                    case KeyEvent.VK_SPACE:
-                        spacePress = false;
+                    case KeyEvent.VK_X:
+                        xPress = false;
                         check = true;
                         break;
                     default:
