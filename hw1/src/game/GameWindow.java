@@ -80,7 +80,7 @@ public class GameWindow extends JFrame{
         });
     }
 
-    public void run(){
+    public void loop(){
         py = this.getHeight() - backgroud.getHeight();
         while(true){
             try {
@@ -88,7 +88,7 @@ public class GameWindow extends JFrame{
                 backBufferGraphics2D.setColor(Color.BLACK);
                 backBufferGraphics2D.fillRect(0,0,this.getWidth(),this.getHeight());
 
-                if(py!=0) py++;
+                if(py<0) py++;
                 backBufferGraphics2D.drawImage(backgroud, 0, py, null);
                 backBufferGraphics2D.drawImage(player, playerX, playerY , null);
                 Graphics2D g2d = (Graphics2D)this.getGraphics();
