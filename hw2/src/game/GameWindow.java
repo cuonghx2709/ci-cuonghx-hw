@@ -120,14 +120,14 @@ public class GameWindow extends JFrame{
         player.move(dx, dy);
 
         for (Enemies enemies: enemiess) {
-            enemies.move(0, 10);
+            enemies.move();
         }
 
     }
 
     private void creatEnemies() {
         Enemies enemies = new Enemies();
-        enemies.x=enemies.rand(background.getWidth());
+        enemies.rand(background.getWidth());
         try {
             enemies.image = ImageIO.read(new File("assets/images/enemies/bullets/blue.png"));
         } catch (IOException e) {
