@@ -33,12 +33,10 @@ public class GameWindow extends JFrame{
     boolean xPress;
     boolean check;
 
-    int backGroundX;
-    int backGroundY;
-    static long start;
-    static long end;
-     long startB;
-    static long endB;
+    private int backGroundX;
+    private int backGroundY;
+    private int  countdownspell = 5;
+    private int  countdownenemies = 6;
 
 
     ArrayList<Enemies> enemiess = new ArrayList<>();
@@ -58,8 +56,6 @@ public class GameWindow extends JFrame{
         backGroundY = this.getHeight()- background.getHeight();
         bufferedImagebackground = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         graphics2Dbfbg = (Graphics2D) bufferedImagebackground.getGraphics();
-        start = System.currentTimeMillis();
-        startB = System.currentTimeMillis();
         check = true;
 
         this.setVisible(true);
@@ -78,15 +74,15 @@ public class GameWindow extends JFrame{
     private void run(){
         int dx = 0;
         int dy = 0;
-        end = System.currentTimeMillis();
-        endB = System.currentTimeMillis();
+        countdownenemies --;
+        countdownspell--;
 
         Random rd = new Random();
-        int x = rd.nextInt(250) + 100;
-        if(endB-startB > x){
+        int x = rd.nextInt(4)+ 4;
+        if(countdownenemies < 0){
             creatEnemies();
+            countdownenemies = x;
         }
-
         if (backGroundY < 0){
             backGroundY += 5;
         }
@@ -103,15 +99,9 @@ public class GameWindow extends JFrame{
             dx -= 5;
         }
         if (xPress){
-            if (check) {
+            if(countdownspell < 0){
                 creatNewSpell();
-                start = System.currentTimeMillis();
-                check = false;
-            }else{
-                if (CountDown()){
-                    creatNewSpell();
-                }
-
+                countdownspell = 5;
             }
         }
         for(PlayerSpell playerSpell : playerSpells){
@@ -134,7 +124,6 @@ public class GameWindow extends JFrame{
             e.printStackTrace();
         }
         enemiess.add(enemies);
-        startB = System.currentTimeMillis();
     }
 
     private void creatNewSpell() {
@@ -171,14 +160,6 @@ public class GameWindow extends JFrame{
             e.printStackTrace();
         }
     }
-    private boolean CountDown(){
-        if (end - start >= 150){
-            start = System.currentTimeMillis();
-            return true;
-        }
-        return false;
-    }
-
 
     private void SetUpInput() {
         this.addKeyListener(new KeyListener() {
