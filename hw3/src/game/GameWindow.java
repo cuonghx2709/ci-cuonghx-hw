@@ -1,6 +1,9 @@
 package game;
 
+import game.bases.Contrains;
+import game.bases.Vector2D;
 import game.enemies.Enemies;
+import game.enemies.EnemiesBullet;
 import game.player.Player;
 import game.player.PlayerSpell;
 
@@ -31,17 +34,18 @@ public class GameWindow extends JFrame{
     boolean rightPress;
     boolean leftPress;
     boolean xPress;
-    boolean check;
+    boolean enemiesDisable;
 
-    private int backGroundX;
-    private int backGroundY;
-    private int  countdownspell = 5;
-    private int  countdownenemies = 6;
+    private int status = 1;
+
+    private Vector2D backGround = new Vector2D();
 
 
     ArrayList<Enemies> enemiess = new ArrayList<>();
     ArrayList<PlayerSpell> playerSpells = new ArrayList<>();
     Player player = new Player();
+    FrameCounter cooldown ;
+
 
     Graphics2D graphics2Dbfbg;
 
@@ -49,14 +53,13 @@ public class GameWindow extends JFrame{
         SetUpGameWindow();
         Loadimage();
         SetUpInput();
+        cooldown = new FrameCounter(150);//~= 2s
+        player.setContrain(new Contrains(0, this.getHeight() - 100, 0, this.getWidth()/2));
+        player.position.set(background.getWidth()/2,this.getHeight() - 100);
 
-        player.x = background.getWidth()/2;
-        player.y = this.getHeight() - player.image.getHeight()*3;
-        backGroundX = 0;
-        backGroundY = this.getHeight()- background.getHeight();
+        backGround.set(0,this.getHeight()- background.getHeight());
         bufferedImagebackground = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
         graphics2Dbfbg = (Graphics2D) bufferedImagebackground.getGraphics();
-        check = true;
 
         this.setVisible(true);
     }
@@ -74,17 +77,8 @@ public class GameWindow extends JFrame{
     private void run(){
         int dx = 0;
         int dy = 0;
-        countdownenemies --;
-        countdownspell--;
-
-        Random rd = new Random();
-        int x = rd.nextInt(4)+ 4;
-        if(countdownenemies < 0){
-            creatEnemies();
-            countdownenemies = x;
-        }
-        if (backGroundY < 0){
-            backGroundY += 5;
+        if (backGround.y < 0){
+            backGround.y += 5;
         }
         if (upPress){
             dy -= 5;
@@ -99,49 +93,39 @@ public class GameWindow extends JFrame{
             dx -= 5;
         }
         if (xPress){
-            if(countdownspell < 0){
-                creatNewSpell();
-                countdownspell = 5;
-            }
+            player.castspells(playerSpells);
         }
         for(PlayerSpell playerSpell : playerSpells){
             playerSpell.move();
 
         }
+        player.run();
         player.move(dx, dy);
 
         for (Enemies enemies: enemiess) {
-            if(enemies.x > this.getWidth()/2- enemies.image.getWidth()*2||(enemies.x < 0)){
-                enemies.dx = -enemies.dx;
-            }
             enemies.move();
+            enemies.makeBullet();
+            for(EnemiesBullet enemiesBullet : enemies.enemiesBullets){
+                enemiesBullet.move();
+            }
+        }
+        if(!enemiesDisable){
+            Enemies enemies = new Enemies(status);
+            if(status==1){
+                status = 2;
+            }else{
+                status = 1;
+            }
+            enemies.rand(400 - enemies.imageRenderer.image.getWidth());
+            enemiess.add(enemies);
+            enemiesDisable = true;
+        }else{
+            if(cooldown.run()){
+                cooldown.reset();
+                enemiesDisable = false;
+            }
         }
 
-    }
-
-    private void creatEnemies() {
-        Enemies enemies = new Enemies();
-        try {
-            enemies.image = ImageIO.read(new File("assets/images/enemies/bullets/blue.png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        enemies.rand(background.getWidth()- enemies.image.getWidth());
-        enemiess.add(enemies);
-    }
-
-    private void creatNewSpell() {
-        PlayerSpell playerSpell = new PlayerSpell();
-        try {
-            playerSpell.image = ImageIO.read(new File("assets/images/player-spells/a/1.png"));
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        playerSpell.x = player.x + player.image.getWidth()/ 8 ;
-        playerSpell.y = player.y - playerSpell.image.getHeight()/3;
-
-        playerSpells.add(playerSpell);
     }
 
     private void render(){
@@ -149,13 +133,16 @@ public class GameWindow extends JFrame{
             Thread.sleep(17);
             graphics2Dbfbg.setColor(Color.BLACK);
             graphics2Dbfbg.fillRect(0, 0, this.getWidth(), this.getHeight());
-            graphics2Dbfbg.drawImage(background, backGroundX, backGroundY, null);
+            graphics2Dbfbg.drawImage(background, (int) backGround.x,(int) backGround.y, null);
             player.render(graphics2Dbfbg);
             for (PlayerSpell playerSpell: playerSpells) {
                 playerSpell.render(graphics2Dbfbg);
             }
             for (Enemies enemies: enemiess) {
                 enemies.render(graphics2Dbfbg);
+                for (EnemiesBullet enemiesBullet : enemies.enemiesBullets ){
+                    enemiesBullet.render(graphics2Dbfbg);
+                }
             }
 
             Graphics2D g2d = (Graphics2D) this.getGraphics();
@@ -212,7 +199,6 @@ public class GameWindow extends JFrame{
                         break;
                     case KeyEvent.VK_X:
                         xPress = false;
-                        check = true;
                         break;
                     default:
                         break;
@@ -224,7 +210,6 @@ public class GameWindow extends JFrame{
     private void Loadimage () {
         try {
             background = ImageIO.read(new File("assets/images/background/0.png"));
-            player.image = ImageIO.read(new File("assets/images/players/straight/0.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
