@@ -51,7 +51,7 @@ public class Enemies {
     public void makeBullet(){
 
 
-        if(!bulletdisable){
+        if(!bulletdisable&&position.y < 800){
 
             if(status == 1){
                 EnemiesBullet enemiesBullet = new EnemiesBullet();

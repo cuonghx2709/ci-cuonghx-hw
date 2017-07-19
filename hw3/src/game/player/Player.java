@@ -2,9 +2,7 @@ package game.player;
 
 import game.FrameCounter;
 import game.Utils;
-import game.bases.Contrains;
-import game.bases.ImageRenderer;
-import game.bases.Vector2D;
+import game.bases.*;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -13,49 +11,69 @@ import java.util.ArrayList;
 /**
  * Created by cuonghx2709 on 7/12/2017.
  */
-public class Player {
+public class Player extends GameObject {
 
-    public Vector2D position;
-    public ImageRenderer imageRenderer;
-    public Contrains contrains;
-    public FrameCounter cooldown;
-    public boolean spellDisable;
+    private Contrains contrains;
+    private InPutManager inPutManager;
+    private FrameCounter cooldown;
+    private boolean spellDisable;
 
-    public Player() {
-        this.position = new Vector2D();
-        this.imageRenderer = new ImageRenderer(Utils.Loadimage("assets/images/players/straight/0.png"));
-        this.cooldown = new FrameCounter(17); // 17 frame ~= 300milis
+    private Vector2D velocity;
+
+    @Override
+    public void run() {
+        move();
+        castspell();
+        newplayer = this;
     }
 
-    public void move(float dx, float dy) {
-        position.addUp(dx, dy);
-        contrains.run(position);
-
-    }
-
-    public void setContrain(Contrains contrains){
-        this.contrains = contrains;
-    }
-
-    public void render(Graphics2D g2d) {
-        imageRenderer.render(g2d, position);
-    }
-
-    public void castspells(ArrayList<PlayerSpell> playerSpells){
-        if(!spellDisable){
-            PlayerSpell playerSpell = new PlayerSpell();
-            playerSpell.position.set(position.x, position.y);
-            playerSpells.add(playerSpell);
-            spellDisable = true;
+    private void castspell() {
+        if (inPutManager.xPress){
+            if(!spellDisable) {
+                PlayerSpell playerSpell = new PlayerSpell();
+                playerSpell.position.set(position.x, position.y - 30);
+                newgameObject.add(playerSpell);
+                spellDisable = true;
+            }
         }
-    }
-    public void run(){
         if(spellDisable){
             if(cooldown.run()){
                 cooldown.reset();
                 spellDisable = false;
             }
         }
+    }
+
+    private void move() {
+        this.velocity.set(0,0);
+        if(inPutManager.rightPress){
+            velocity.x = 10;
+        }
+        if(inPutManager.leftPress){
+            velocity.x = -10;
+        }
+        if(inPutManager.upPress){
+            velocity.y = -10;
+        }
+        if(inPutManager.downPress){
+            velocity.y = 10;
+        }
+
+        position.addUp(velocity);
+        contrains.run(position);
+    }
+
+    public Player() {
+        this.velocity = new Vector2D();
+        this.imageRenderer = new ImageRenderer(Utils.Loadimage("assets/images/players/straight/0.png"));
+        this.cooldown = new FrameCounter(17); // 17 frame ~= 300milis
+    }
+
+    public void setContrain(Contrains contrains){
+        this.contrains = contrains;
+    }
+    public void setInPutManager(InPutManager inPutManager){
+        this.inPutManager = inPutManager;
     }
 }
 

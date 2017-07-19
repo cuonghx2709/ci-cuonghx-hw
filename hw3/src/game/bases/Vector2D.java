@@ -23,4 +23,8 @@ public class Vector2D {
         this.x = x;
         this.y = y;
     }
+    public void addUp(Vector2D vector2D){
+        this.x += vector2D.x;
+        this.y += vector2D.y;
+    }
 }

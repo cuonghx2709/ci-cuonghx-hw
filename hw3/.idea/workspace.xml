@@ -2,167 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b270ae3e-c36d-4e7b-8ca3-afb5ad9f3210" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/background/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/cyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/pink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/bullets/yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion-big/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/explosion/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/black/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/blue/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/enemies/level0/pink/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/enemy-banner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/numbers/9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/picture.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/player.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/power.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/hud/ring.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/items/power-up-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/items/power-up-red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/menus/quit-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/menus/quit-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/menus/start-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/menus/start-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/player-spells/a/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/explosions/7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/left/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/right/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/players/straight/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/game-over-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/thanks-for-playing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/victory-background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/scenes/victory.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere-bullets/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/sphere/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/1.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/bgm/ending.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/bgm/game-over.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/bgm/title.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion-big.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/enemy-explosion.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/item-collect.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/ok.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/option.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/player-dead.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/player-shoot.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/music/sfx/powerup.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/Program.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/FrameCounter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/Utils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/bases/Contrains.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/bases/ImageRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/bases/Vector2D.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/Enemies.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/EnemiesBullet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/player/Player.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/player/PlayerSpell.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/tklibs/AudioUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/tklibs/Mathx.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ci-begin/tklibs/SpriteUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ci-begin.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hw3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reviewsession3.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Program.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/FrameCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/bases/Contrains.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/bases/ImageRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/bases/Vector2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/enemies/Enemies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/player/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/player/PlayerSpell.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tklibs/AudioUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tklibs/Mathx.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tklibs/SpriteUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow.class" afterPath="$PROJECT_DIR$/../hw2/out/production/ci-begin/game/GameWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hw2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hw2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hw2/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/../hw2/src/game/GameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$2.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/GameWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/bases/Vector2D.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/bases/Vector2D.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/Enemies.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/Enemies.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/EnemiesBullet.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/enemies/EnemiesBullet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/player/Player.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/player/Player.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ci-begin/game/player/PlayerSpell.class" afterPath="$PROJECT_DIR$/out/production/ci-begin/game/player/PlayerSpell.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/GameWindow.java" afterPath="$PROJECT_DIR$/src/game/GameWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/bases/Vector2D.java" afterPath="$PROJECT_DIR$/src/game/bases/Vector2D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/enemies/Enemies.java" afterPath="$PROJECT_DIR$/src/game/enemies/Enemies.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java" afterPath="$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/Player.java" afterPath="$PROJECT_DIR$/src/game/player/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game/player/PlayerSpell.java" afterPath="$PROJECT_DIR$/src/game/player/PlayerSpell.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,74 +29,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FrameCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/FrameCounter.java">
+      <file leaf-file-name="PlayerSpell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/PlayerSpell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Program.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemies.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/game/enemies/Enemies.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ci-begin.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ci-begin.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.class" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/out/production/ci-begin/Program.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#314#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnemiesBullet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EnemiesBullet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="510">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
+                <marker date="1500474185064" expanded="true" signature="1916:1922" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -251,9 +64,16 @@
       <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="116" column="27" lean-forward="false" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1500473795565" expanded="true" signature="3050:3056" ph="{...}" />
+                <marker date="1500473795565" expanded="true" signature="3093:3387" ph="{...}" />
+                <marker date="1500473795565" expanded="true" signature="3245:3379" ph="{...}" />
+                <marker date="1500473795565" expanded="false" signature="3321:3340" ph=" { " />
+                <marker date="1500473795565" expanded="false" signature="3355:3369" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -294,18 +114,25 @@
         <option value="$PROJECT_DIR$/src/ProGram2.java" />
         <option value="$PROJECT_DIR$/src/game/ProGram2.java" />
         <option value="$PROJECT_DIR$/src/game/CountDown.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/Vector2D.java" />
         <option value="$PROJECT_DIR$/src/tklibs/Mathx.java" />
         <option value="$PROJECT_DIR$/src/game/bases/Contrains.java" />
-        <option value="$PROJECT_DIR$/src/game/bases/ImageRenderer.java" />
-        <option value="$PROJECT_DIR$/src/game/player/PlayerSpell.java" />
-        <option value="$PROJECT_DIR$/src/game/player/Player.java" />
         <option value="$PROJECT_DIR$/src/game/FrameCounter.java" />
         <option value="$PROJECT_DIR$/src/Program.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Vector2D.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/InPutManager.java" />
+        <option value="$PROJECT_DIR$/src/game/background/bufferedImagebackground.java" />
+        <option value="$PROJECT_DIR$/src/game/background/BuffBackground.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/ImageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/game/background/BackGround.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/Enemies.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemiSpawner.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/CheckImage.java" />
         <option value="$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java" />
         <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
-        <option value="$PROJECT_DIR$/src/game/enemies/Enemies.java" />
-        <option value="$PROJECT_DIR$/out/production/ci-begin/Program.class" />
+        <option value="$PROJECT_DIR$/src/game/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemySpawner.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/game/player/PlayerSpell.java" />
       </list>
     </option>
   </component>
@@ -333,49 +160,147 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw3" />
+              <option name="myItemId" value="reviewsession3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw3" />
+              <option name="myItemId" value="reviewsession3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw3" />
+              <option name="myItemId" value="reviewsession3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hw3" />
+              <option name="myItemId" value="reviewsession3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ci-begin" />
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enemies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="background" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ci-cuonghx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/cuonghx2709/Documents/ci-cuonghx/src/Foofbar.java" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -700,38 +625,68 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4922879" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3237598" sideWeight="0.538125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237598" sideWeight="0.461875" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.48843187" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4922879" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243607" sideWeight="0.5359897" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237598" sideWeight="0.46401027" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.48843187" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3243607" sideWeight="0.5359897" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994778" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.4922879" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237598" sideWeight="0.46401027" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.48843187" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -773,7 +728,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -782,139 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FoorBar.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/countdown/CountDown.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/CountDown.java" />
-    <entry file="file://$PROJECT_DIR$/assets/images/players/straight/0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/players/explosions/0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/players/straight/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProGram2.java" />
-    <entry file="file://$PROJECT_DIR$/src/game/CountDown.java" />
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/blue/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/cyan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/green.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/pink.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/yellow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/blue.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/blue/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/5.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/5.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -962,31 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/bases/ImageRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="107" lean-forward="false" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/PlayerSpell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tklibs/Mathx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -994,54 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/bases/Vector2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="116" column="27" lean-forward="false" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,38 +802,199 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/enemies/Enemies.java">
+    <entry file="file://$PROJECT_DIR$/src/game/bases/Vector2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+        <state relative-caret-position="425">
+          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ci-begin.iml">
+    <entry file="file://$PROJECT_DIR$/assets/images/background/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/background/bufferedImagebackground.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/background/BuffBackground.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/InPutManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemySpawner.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/CheckImage.java" />
+    <entry file="file://$PROJECT_DIR$/assets/images/players/explosions/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/players/straight/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/background/BackGround.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/ImageRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="14" column="115" lean-forward="false" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/red.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/yellow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/green.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/blue.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/5.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion-big/7.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/bullets/cyan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/player-spells/a/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/player-spells/a/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <marker date="1500474185064" expanded="true" signature="1916:1922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemySpawner.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/player/PlayerSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/ci-begin/Program.class">
+    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#314#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <marker date="1500473795565" expanded="true" signature="3050:3056" ph="{...}" />
+            <marker date="1500473795565" expanded="true" signature="3093:3387" ph="{...}" />
+            <marker date="1500473795565" expanded="true" signature="3245:3379" ph="{...}" />
+            <marker date="1500473795565" expanded="false" signature="3321:3340" ph=" { " />
+            <marker date="1500473795565" expanded="false" signature="3355:3369" ph=" }" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/GameObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemiesBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

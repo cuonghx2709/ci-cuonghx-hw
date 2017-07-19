@@ -1,17 +1,17 @@
 package game.enemies;
 
 import game.Utils;
+import game.bases.CheckImage;
+import game.bases.GameObject;
 import game.bases.ImageRenderer;
 import game.bases.Vector2D;
+import game.player.Player;
 
-import java.awt.*;
 
 /**
  * Created by cuonghx2709 on 7/17/2017.
  */
-public class EnemiesBullet {
-    public Vector2D position;
-    public ImageRenderer imageRenderer;
+public class EnemiesBullet extends GameObject{
     public float dx;
     public float dy;
     public EnemiesBullet(){
@@ -23,11 +23,19 @@ public class EnemiesBullet {
         this.dx = (float) dx;
         this.dy = (float) dy;
     }
-
-    public void move(){
+    @Override
+    public void run(){
         position.addUp(dx, dy);
+        if(position.x < 0  || position.x >= 380||position.y < 0 || position.y > 800 ){
+            remote.add(this);
+        }
+       checkplayer(newplayer);
     }
-    public  void render(Graphics2D g2d){
-        imageRenderer.render(g2d, position);
+
+    private void checkplayer(Player player) {
+        if (CheckImage.run(player.position, player.imageRenderer.image.getWidth()-22, player.imageRenderer.image.getHeight()-6, position, imageRenderer.image.getWidth(), imageRenderer.image.getHeight())){
+            remote.add(this);
+            life--;
+        }
     }
 }
