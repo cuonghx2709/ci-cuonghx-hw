@@ -27,4 +27,7 @@ public class Vector2D {
         this.x += vector2D.x;
         this.y += vector2D.y;
     }
+    public  void clone(Vector2D vector2D){
+        vector2D.set(this.x, this.y);
+    }
 }

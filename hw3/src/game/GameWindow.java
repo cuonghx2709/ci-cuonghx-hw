@@ -22,7 +22,6 @@ public class GameWindow extends JFrame{
 
     InPutManager inPutManager = new InPutManager();
 
-    BackGround buffBackground = new BackGround();
 
 
     public GameWindow(){
@@ -32,7 +31,6 @@ public class GameWindow extends JFrame{
         setPlayer();
         setbuffBackground();
         addenemySpawner();
-
 
         this.setVisible(true);
     }
@@ -44,9 +42,9 @@ public class GameWindow extends JFrame{
 
     private void setbuffBackground() {
 
-        buffBackground.imageRenderer.image = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
-        buffBackground.position.set(this.getWidth()/2,this.getHeight()/2);
-        buffBackground.graphics2D = (Graphics2D) buffBackground.imageRenderer.image.getGraphics();
+        GameObject.buffBackground.imageRenderer.image = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        GameObject.buffBackground.position.set(this.getWidth()/2,this.getHeight()/2);
+        GameObject.buffBackground.graphics2D = (Graphics2D) GameObject.buffBackground.imageRenderer.image.getGraphics();
 
     }
 
@@ -83,13 +81,11 @@ public class GameWindow extends JFrame{
     private void render(){
         try {
             Thread.sleep(17);
-            buffBackground.graphics2D.setColor(Color.BLACK);
-            buffBackground.graphics2D.fillRect(0, 0, this.getWidth(), this.getHeight());
-
-            GameObject.renderAll(buffBackground.graphics2D);
-
             Graphics2D g2d = (Graphics2D) this.getGraphics();
-            buffBackground.imageRenderer.render(g2d,buffBackground.position);
+
+            GameObject.renderAll(g2d);
+
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

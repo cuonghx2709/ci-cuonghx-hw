@@ -4,19 +4,17 @@ import game.FrameCounter;
 import game.Utils;
 import game.bases.*;
 
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.util.ArrayList;
-
 /**
  * Created by cuonghx2709 on 7/12/2017.
  */
 public class Player extends GameObject {
 
     private Contrains contrains;
-    private InPutManager inPutManager;
+    public InPutManager inPutManager;
     private FrameCounter cooldown;
+
     private boolean spellDisable;
+    public boolean powable;
 
     private Vector2D velocity;
 
@@ -65,7 +63,7 @@ public class Player extends GameObject {
 
     public Player() {
         this.velocity = new Vector2D();
-        this.imageRenderer = new ImageRenderer(Utils.Loadimage("assets/images/players/straight/0.png"));
+        this.imageRenderer = new ImageRenderer(Utils.loadimage("assets/images/players/straight/0.png"));
         this.cooldown = new FrameCounter(17); // 17 frame ~= 300milis
     }
 

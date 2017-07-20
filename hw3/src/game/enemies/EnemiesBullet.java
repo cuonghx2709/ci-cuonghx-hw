@@ -1,7 +1,7 @@
 package game.enemies;
 
 import game.Utils;
-import game.bases.CheckImage;
+import game.bases.Overlap;
 import game.bases.GameObject;
 import game.bases.ImageRenderer;
 import game.bases.Vector2D;
@@ -16,7 +16,7 @@ public class EnemiesBullet extends GameObject{
     public float dy;
     public EnemiesBullet(){
         this.position = new Vector2D();
-        this.imageRenderer = new ImageRenderer(Utils.Loadimage("assets/images/enemies/bullets/blue.png"));
+        this.imageRenderer = new ImageRenderer(Utils.loadimage("assets/images/enemies/bullets/blue.png"));
     }
 
     public void setMove(double dx, double dy) {
@@ -33,7 +33,7 @@ public class EnemiesBullet extends GameObject{
     }
 
     private void checkplayer(Player player) {
-        if (CheckImage.run(player.position, player.imageRenderer.image.getWidth()-22, player.imageRenderer.image.getHeight()-6, position, imageRenderer.image.getWidth(), imageRenderer.image.getHeight())){
+        if (Overlap.run(player.position, player.imageRenderer.image.getWidth()-22, player.imageRenderer.image.getHeight()-6, position, imageRenderer.image.getWidth(), imageRenderer.image.getHeight())){
             remote.add(this);
             life--;
         }
