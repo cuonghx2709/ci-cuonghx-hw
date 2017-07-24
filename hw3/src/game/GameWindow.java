@@ -1,97 +1,67 @@
 package game;
 
-import game.background.BackGround;
-import game.bases.Contrains;
+import game.bases.Contraints;
 import game.bases.GameObject;
-import game.bases.InPutManager;
-import game.enemies.EnemySpawner;
-import game.player.Player;
+import game.enemies.Enemy1;
+import game.enemies.EnemySpawer;
+import game.inputs.InputManger;
+import game.players.Player;
+import game.screens.Backgrounds;
+import game.screens.Setting;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
+import java.awt.event.*;
 import java.awt.image.BufferedImage;
-
-
 /**
- * Created by cuonghx2709 on 7/12/2017.
+ * Created by huynq on 7/9/17.
  */
-public class GameWindow extends JFrame{
+public class GameWindow extends JFrame {
 
-    InPutManager inPutManager = new InPutManager();
+    BufferedImage backBufferImage;
+    Graphics2D backBufferGraphics2D;
+
+    Backgrounds background;
+
+    InputManger inputManger = new InputManger();
+
+
+    public GameWindow() {
+
+        setupWindow();
+        addBackground();
+        addPlayer();
+        addEnemySpawner();
 
 
 
-    public GameWindow(){
-        SetUpGameWindow();
-        setUpBackground();
-        SetUpInput();
-        setPlayer();
-        setbuffBackground();
-        addenemySpawner();
+        backBufferImage = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
+        backBufferGraphics2D = (Graphics2D) backBufferImage.getGraphics();
 
+        setupInputs();
         this.setVisible(true);
     }
 
-    private void addenemySpawner() {
-         GameObject.enemySpawner = new EnemySpawner();
-        GameObject.add(GameObject.enemySpawner);
+    private void addBackground() {
+        background = new Backgrounds();
+        background.position.y = this.getHeight();
+        GameObject.add(background);
     }
 
-    private void setbuffBackground() {
+    private void addEnemySpawner() {
+        GameObject.add(new EnemySpawer());
+         }
 
-        GameObject.buffBackground.imageRenderer.image = new BufferedImage(this.getWidth(), this.getHeight(), BufferedImage.TYPE_INT_ARGB);
-        GameObject.buffBackground.position.set(this.getWidth()/2,this.getHeight()/2);
-        GameObject.buffBackground.graphics2D = (Graphics2D) GameObject.buffBackground.imageRenderer.image.getGraphics();
-
-    }
-
-    private void setUpBackground() {
-
-        BackGround backGround = new BackGround();
-        backGround.position.set(backGround.imageRenderer.image.getWidth()/2, this.getHeight()-backGround.imageRenderer.image.getHeight()/2);
-        GameObject.add(backGround);
-
-    }
-
-    private void setPlayer() {
+    private void addPlayer() {
         Player player = new Player();
-        player.setContrain(new Contrains(50, this.getHeight() - 25, 15, this.getWidth()/2 - 25));
-        player.setInPutManager(inPutManager);
-        player.position.set(this.getWidth()/4,this.getHeight() - 100);
+        player.setContraints(new Contraints(20, this.getHeight(), 0, background.renderer.getWidth()));
+        player.setInputManger(inputManger);
+        player.position.set(background.renderer.getWidth()/2, this.getHeight() - 50);
+
         GameObject.add(player);
     }
 
-    public void loop() {
-
-        while (true){
-
-            run();
-
-            render();
-
-        }
-    }
-    private void run() {
-        GameObject.runAll();
-    }
-
-    private void render(){
-        try {
-            Thread.sleep(17);
-            Graphics2D g2d = (Graphics2D) this.getGraphics();
-
-            GameObject.renderAll(g2d);
-
-
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void SetUpInput() {
+    private void setupInputs() {
         this.addKeyListener(new KeyListener() {
             @Override
             public void keyTyped(KeyEvent e) {
@@ -100,20 +70,66 @@ public class GameWindow extends JFrame{
 
             @Override
             public void keyPressed(KeyEvent e) {
-                inPutManager.KeyPressed(e);
+                inputManger.keyPress(e);
             }
 
             @Override
             public void keyReleased(KeyEvent e) {
-                inPutManager.KeyReleased(e);
+                inputManger.keyReleased(e);
             }
         });
     }
 
-    private void SetUpGameWindow() {
-        this.setSize(800,800);
-        this.setTitle("cuonghx");
+
+    long lasUpdateTime;
+
+    long start;
+    long end;
+    public void loop() {
+         while (true) {
+            long currenTime = System.currentTimeMillis();
+            if (currenTime - lasUpdateTime > Setting.frameDelay) {
+                lasUpdateTime = currenTime;
+
+
+                run();
+
+                render();
+
+            }
+        }
+    }
+
+    private void run() {
+
+        GameObject.runAll();
+
+    }
+
+    private void render() {
+
+        backBufferGraphics2D.setColor(Color.BLACK);
+        backBufferGraphics2D.fillRect(0, 0, this.getWidth(), this.getHeight());
+
+
+
+        GameObject.renderAll(backBufferGraphics2D);
+        Graphics2D g2d = (Graphics2D) this.getGraphics();
+        g2d.drawImage(backBufferImage, 0, 0, null);
+        g2d.setColor(Color.WHITE);
+        g2d.drawString(String.format("life : %s", Player.instance.life),400,400);
+        end = System.currentTimeMillis();
+        if(end - start != 0)
+        g2d.drawString(String.format("fps : %s", 1000/(end-start)),400,450);
+        start = System.currentTimeMillis();
+
+    }
+
+    private void setupWindow() {
+        this.setSize(Setting.WindowWidth, Setting.Windowheight);
         this.setResizable(false);
+        this.setTitle("Touhou - Remade by cuonghx");
+
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent e) {

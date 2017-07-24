@@ -15,11 +15,11 @@ public class Mathx {
 //     * @param f = currentime / time [0 1]
 //     * @return
 //     */
-//    public static Vector2D lerp(Vector2D origin, Vector2D destination, double f) {
+//    public static game.bases.Vector2D lerp(game.bases.Vector2D origin, game.bases.Vector2D destination, double f) {
 //        return origin.multiply(1  - f).add(destination.multiply(f));
 //    }
 
-    public static float clamp(float value, float min, float max) {
+    public static double clamp(double value, double min, double max) {
         if (value < min) return min;
         if (value > max) return max;
         return value;
@@ -29,5 +29,8 @@ public class Mathx {
         if (value < min) return min;
         if (value > max) return max;
         return value;
+    }
+    public static boolean inRange(float value , float min , float max){
+        return value > min && value < max;
     }
 }

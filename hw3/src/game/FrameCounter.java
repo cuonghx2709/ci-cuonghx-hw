@@ -1,11 +1,11 @@
 package game;
 
 /**
- * Created by cuonghx2709 on 7/17/2017.
+ * Created by cuonghx2709 on 7/16/2017.
  */
 public class FrameCounter {
-    float count;
-    float countmax;
+    int count;
+    int countmax;
     public  FrameCounter(int countmax){
         this.countmax = countmax;
     }
@@ -14,7 +14,7 @@ public class FrameCounter {
     }
     public boolean run(){
         if(count < countmax) {
-            count +=1;
+            count ++;
             return  false;
         }
         return true;
