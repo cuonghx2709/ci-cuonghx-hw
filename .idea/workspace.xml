@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2701edb7-6b3d-461d-a128-a4bebab19870" name="Default" comment="update">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/.idea/ci-cuonghx-hw.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/background/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/bullets/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion-big/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/explosion/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/black/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/blue/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/blue/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/blue/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/blue/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/pink/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/pink/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/pink/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/enemies/level0/pink/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/enemy-banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/numbers/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/power.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/hud/ring.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/items/power-up-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/items/power-up-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/menus/quit-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/menus/quit-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/menus/start-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/menus/start-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/player-bullets/a/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/player-bullets/a/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/player-bullets/a/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/player-bullets/a/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/explosions/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/left/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/right/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/players/straight/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/game-over-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/thanks-for-playing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/victory-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/scenes/victory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere-bullets/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere-bullets/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere-bullets/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere-bullets/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/images/sphere/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/bgm/ending.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/bgm/game-over.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/bgm/title.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/enemy-explosion-big.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/enemy-explosion.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/item-collect.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/ok.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/option.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/player-dead.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/player-shoot.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/assets/music/sfx/powerup.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/ci-begin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/game/GameWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/game/GameWindow$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/game/GameWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/program.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/tklibs/AudioUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/tklibs/Mathx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/out/production/ci-begin/tklibs/SpriteUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/src/game/GameWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/src/program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/src/tklibs/AudioUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/src/tklibs/Mathx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw1/src/tklibs/SpriteUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/background/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/bullets/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion-big/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/explosion/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/black/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/blue/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/blue/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/blue/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/blue/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/pink/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/pink/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/pink/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/enemies/level0/pink/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/enemy-banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/numbers/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/power.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/hud/ring.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/items/power-up-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/items/power-up-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/menus/quit-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/menus/quit-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/menus/start-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/menus/start-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/player-spells/a/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/player-spells/a/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/player-spells/a/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/player-spells/a/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/explosions/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/left/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/right/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/players/straight/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/game-over-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/thanks-for-playing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/victory-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/scenes/victory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere-bullets/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere-bullets/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere-bullets/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere-bullets/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/images/sphere/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/bgm/ending.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/bgm/game-over.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/bgm/title.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/enemy-explosion-big.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/enemy-explosion.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/item-collect.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/ok.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/option.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/player-dead.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/player-shoot.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/assets/music/sfx/powerup.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/ci-begin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/hw2.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/Program.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/GameWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/GameWindow$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/GameWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/enemies/Enemies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/player/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/game/player/PlayerSpell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/tklibs/AudioUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/tklibs/Mathx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/out/production/ci-begin/tklibs/SpriteUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/Program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/game/GameWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/game/enemies/Enemies.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/game/player/Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/game/player/PlayerSpell.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/tklibs/AudioUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/tklibs/Mathx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw2/src/tklibs/SpriteUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/background/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/cyan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/bullets/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion-big/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/explosion/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/black/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/blue/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/blue/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/blue/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/blue/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/pink/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/pink/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/pink/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/enemies/level0/pink/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/enemy-banner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/numbers/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/power.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/hud/ring.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/items/power-up-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/items/power-up-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/menus/quit-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/menus/quit-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/menus/start-color.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/menus/start-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/player-spells/a/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/player-spells/a/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/player-spells/a/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/player-spells/a/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/explosions/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/left/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/right/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/players/straight/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/game-over-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/thanks-for-playing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/victory-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/scenes/victory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere-bullets/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere-bullets/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere-bullets/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere-bullets/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/images/sphere/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/bgm/ending.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/bgm/game-over.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/bgm/title.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/enemy-explosion-big.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/enemy-explosion.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/item-collect.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/ok.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/option.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/player-dead.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/player-shoot.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/assets/music/sfx/powerup.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/ci-begin.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/Program.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/FrameCounter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/GameWindow$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/GameWindow$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/GameWindow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/BoxCollider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/Contraints.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/GameObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/ImageRenderer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/MathX.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/bases/Vector2D.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/enemies/Enemy1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/enemies/Enemy2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/enemies/EnemyBullet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/enemies/EnemySpawer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/inputs/InputManger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/items/sphere/Pow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/items/sphere/sphere/Sphere.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/items/sphere/sphere/SphereBullet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/players/Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/players/PlayerSpell.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/screens/Backgrounds.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/game/screens/Setting.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/tklibs/AudioUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/tklibs/Mathx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/out/production/ci-begin/tklibs/SpriteUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/Program.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/FrameCounter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/GameWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/BoxCollider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/Contraints.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/GameObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/ImageRenderer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/MathX.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/bases/Vector2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/enemies/Enemy1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/enemies/Enemy2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/enemies/EnemyBullet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/enemies/EnemySpawer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/inputs/InputManger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/items/sphere/Pow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/items/sphere/sphere/Sphere.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/items/sphere/sphere/SphereBullet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/players/Player.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/players/PlayerSpell.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/screens/Backgrounds.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/game/screens/Setting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/tklibs/AudioUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/tklibs/Mathx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hw3/src/tklibs/SpriteUtils.java" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="127" column="52" lean-forward="false" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerSpell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/players/PlayerSpell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="e#1888#1889#0" expanded="false" />
+                <element signature="e#1922#1923#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/players/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sphere.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/item/sphere/Sphere.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SphereBullet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/item/sphere/SphereBullet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2278#2279#0" expanded="false" />
+                <element signature="e#2312#2313#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BigExplosion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/enemies/BigExplosion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyBlue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemyBlue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2790#2791#0" expanded="false" />
+                <element signature="e#2829#2830#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Effect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/bases/effect/Effect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnemyBlack.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemyBlack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/game/bases/MathX.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Contraints.java" />
+        <option value="$PROJECT_DIR$/src/game/FrameCounter.java" />
+        <option value="$PROJECT_DIR$/src/game/Utils.java" />
+        <option value="$PROJECT_DIR$/src/base.java" />
+        <option value="$PROJECT_DIR$/src/A.java" />
+        <option value="$PROJECT_DIR$/src/B.java" />
+        <option value="$PROJECT_DIR$/src/Base.java" />
+        <option value="$PROJECT_DIR$/src/game/screens/Setting.java" />
+        <option value="$PROJECT_DIR$/src/game/items/sphere/Sphere.java" />
+        <option value="$PROJECT_DIR$/src/game/item/item.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/BoxCollider.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Physics.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/physics/Physics.java" />
+        <option value="$PROJECT_DIR$/src/tklibs/Mathx.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Physics/PhysicBody.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Physics/Physics.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderers/renderer.java" />
+        <option value="$PROJECT_DIR$/src/game/screens/Backgrounds.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/ImageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/physics/PhysicBody.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/GameObjectPool.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderers/Renderer.java" />
+        <option value="$PROJECT_DIR$/src/game/item/Sphere.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderers/ImageRenderer.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/physics/Find.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/physics/Physic.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/GameObject.java" />
+        <option value="$PROJECT_DIR$/src/game/item/sphere/Sphere.java" />
+        <option value="$PROJECT_DIR$/src/game/inputs/InputManger.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderers/Effect.java" />
+        <option value="$PROJECT_DIR$/src/program.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/efect/Efect.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/effect/Efect.java" />
+        <option value="$PROJECT_DIR$/src/game/players/PlayerExplosion.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemyBullet.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/renderers/Animation.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/Explosion.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/Enemy.java" />
+        <option value="$PROJECT_DIR$/src/game/item/Item.java" />
+        <option value="$PROJECT_DIR$/src/game/item/Pow.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/Vector2D.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemySpawer.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/BigExplosion.java" />
+        <option value="$PROJECT_DIR$/src/game/players/PlayerSpell.java" />
+        <option value="$PROJECT_DIR$/src/game/item/sphere/SphereBullet.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemyBlue.java" />
+        <option value="$PROJECT_DIR$/src/game/enemies/EnemyBlack.java" />
+        <option value="$PROJECT_DIR$/src/game/bases/effect/Effect.java" />
+        <option value="$PROJECT_DIR$/src/game/players/Player.java" />
+        <option value="$PROJECT_DIR$/src/game/GameWindow.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tklibs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="players" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sphere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enemies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="renderers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bases" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reviewsession3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enemies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw3" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/cuonghx2709/Documents/ci-cuonghx/src/Foofbar.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.program">
+    <configuration default="false" name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Program" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ci-begin" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="program" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ci-begin" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ci-begin" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Program" />
+      <item index="1" class="java.lang.String" itemvalue="Application.program" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.program" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Program" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2701edb7-6b3d-461d-a128-a4bebab19870" name="Default" comment="" />
+      <created>1499170751974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499170751974</updated>
+    </task>
+    <task id="LOCAL-00001" summary="s4">
+      <created>1499786627030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499786627030</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Player+ spells">
+      <created>1499875275296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499875275296</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added cooldown refect code">
+      <created>1500219837985</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500219837985</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hw Added animation + sound">
+      <created>1501315953833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501315953833</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31853786" sideWeight="0.50375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3176312" sideWeight="0.49625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24100257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31853786" sideWeight="0.50375" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973083" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3176312" sideWeight="0.49625" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14652957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <MESSAGE value="s4" />
+    <MESSAGE value="Added Player+ spells" />
+    <MESSAGE value="added cooldown refect code" />
+    <MESSAGE value="hw Added animation + sound" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw Added animation + sound" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/images/sphere-bullets/0.png" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/physics/Find.java" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/inputs/InputManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/explosion/0.png" />
+    <entry file="file://$PROJECT_DIR$/assets/music/bgm/title.mp3" />
+    <entry file="file://$PROJECT_DIR$/src/tklibs/SpriteUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/value/WritableObjectValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/music/1.mp3" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/sound/sampled/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/renderers/Effect.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/beans/value/ObservableBooleanValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/sound/sampled/Clip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2128">
+          <caret line="77" column="14" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tklibs/AudioUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/sound/sampled/DataLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="140" column="34" lean-forward="true" selection-start-line="140" selection-start-column="34" selection-end-line="140" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/players/explosions/0.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/players/explosions/1.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/players/explosions/2.png" />
+    <entry file="file://$PROJECT_DIR$/src/game/players/PlayerExplosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/0.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/1.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/2.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/5.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/enemies/level0/black/4.png" />
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemyBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/renderers/Animation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+          <folding>
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1262#1263#0" expanded="false" />
+            <element signature="e#1304#1305#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/items/power-up-red.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/hud/ring.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/hud/player.png" />
+    <entry file="file://$PROJECT_DIR$/src/game/bases/Vector2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/hud/enemy-banner.png" />
+    <entry file="file://$PROJECT_DIR$/assets/images/hud/power.png" />
+    <entry file="file://$PROJECT_DIR$/src/game/item/Pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1396#1397#0" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="1300" column="0" lean-forward="false" selection-start-line="1300" selection-start-column="0" selection-end-line="1300" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/javafx-src.zip!/javafx/scene/media/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="668" column="22" lean-forward="false" selection-start-line="668" selection-start-column="22" selection-end-line="668" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Air_Attack_HD_1.5.1.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemySpawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/physics/Physic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/Explosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/item/sphere/Sphere.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/BigExplosion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/item/sphere/SphereBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="33" lean-forward="false" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2278#2279#0" expanded="false" />
+            <element signature="e#2312#2313#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemyBlack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/bases/effect/Effect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/enemies/EnemyBlue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="71" column="33" lean-forward="false" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2790#2791#0" expanded="false" />
+            <element signature="e#2829#2830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/players/PlayerSpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#1888#1889#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3733">
+          <caret line="2983" column="0" lean-forward="false" selection-start-line="2983" selection-start-column="0" selection-end-line="2983" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/GameWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="127" column="52" lean-forward="false" selection-start-line="127" selection-start-column="52" selection-end-line="127" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
