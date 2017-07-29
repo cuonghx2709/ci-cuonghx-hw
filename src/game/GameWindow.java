@@ -46,6 +46,7 @@ public class GameWindow extends JFrame {
     private void SetUpAudio() {
         AudioUtils.initialize();
         mediaPlayer = AudioUtils.playMedia("assets/music/1.mp3");
+        mediaPlayer.setVolume(0.5d);
         mediaPlayer.setOnRepeat(this::loop);
         mediaPlayer.setOnPlaying(this::run);
 
@@ -122,9 +123,11 @@ public class GameWindow extends JFrame {
         Graphics2D g2d = (Graphics2D) this.getGraphics();
 
         g2d.drawImage(backBufferImage, 0, 0, null);
+        g2d.setColor(Color.GREEN);
+        g2d.setFont(new Font("1", Font.BOLD,14));
         end = System.currentTimeMillis();
         if (end - start > 0){
-            g2d.setColor(Color.GREEN);
+
             g2d.drawString(String.format("fps : %s", 1000 /(end - start)), 400, 200);
         }
         start = System.currentTimeMillis();

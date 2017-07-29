@@ -95,6 +95,10 @@ public class EnemyBlack extends GameObject implements PhysicBody{
         Vector2D bulletVelocity = target.subtract(relativePosition).normdlize().multiply(5);
 
         EnemyBullet enemyBullet = GameObjectPool.recycle(EnemyBullet.class);
+        enemyBullet.renderer = new ImageRenderer(Utils.Loadimage("assets/images/enemies/bullets/green.png"));
+        if (count < 10 && count > 5){
+            enemyBullet.renderer = new ImageRenderer(Utils.Loadimage("assets/images/enemies/bullets/yellow.png"));
+        }
         enemyBullet.velocity.set(bulletVelocity);
         enemyBullet.relativePosition.set(screenPosition);
     }

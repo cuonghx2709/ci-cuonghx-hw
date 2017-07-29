@@ -9,6 +9,7 @@ import game.bases.Vector2D;
  * Created by cuonghx2709 on 7/23/2017.
  */
 public class Backgrounds extends GameObject{
+    public static Backgrounds instance;
 
     public ImageRenderer imageRenderer;
     public Backgrounds(){
@@ -16,6 +17,7 @@ public class Backgrounds extends GameObject{
         this.imageRenderer = new ImageRenderer(Utils.Loadimage("assets/images/background/0.png"));
         this.imageRenderer.anchor.set(0, 1);
         renderer = imageRenderer;
+        instance = this;
     }
 
     @Override

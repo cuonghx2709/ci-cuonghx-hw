@@ -7,11 +7,13 @@ import game.bases.effect.Effect;
 import game.bases.physics.PhysicBody;
 import game.bases.renderers.Animation;
 import game.bases.renderers.ImageRenderer;
+import game.item.Bigpow;
 import game.item.Pow;
 import game.players.Player;
 import tklibs.AudioUtils;
 
 import javax.sound.sampled.Clip;
+import java.util.Random;
 
 /**
  * Created by cuonghx2709 on 7/23/2017.
@@ -21,7 +23,7 @@ public class EnemyBlue extends GameObject implements PhysicBody{
     FrameCounter shootCounter;
 
     BoxCollider boxCollider;
-    public float hp = 2;
+    public float hp = 1;
 
     Effect enemyExplosion;
     public EnemyBlue(){
@@ -33,7 +35,7 @@ public class EnemyBlue extends GameObject implements PhysicBody{
                 Utils.Loadimage("assets/images/enemies/level0/blue/3.png")
         );
         this.velocity = new Vector2D();
-        this.shootCounter = new FrameCounter(50);
+        this.shootCounter = new FrameCounter(100);
         this.boxCollider = new BoxCollider(20,20);
         this.boxCollider.relativePosition.set(0,0);
 
@@ -67,8 +69,15 @@ public class EnemyBlue extends GameObject implements PhysicBody{
             this.hp = 2;
             Explosion explosion = GameObjectPool.recycle(Explosion.class);
             explosion.relativePosition.set(this.relativePosition);
-            Pow pow =GameObjectPool.recycle(Pow.class);
-            pow.relativePosition.set(this.relativePosition);
+            Random random = new Random();
+            int r = random.nextInt(10);
+            if (r > 5 ){
+                Pow pow =GameObjectPool.recycle(Pow.class);
+                pow.relativePosition.set(this.relativePosition);
+            }else {
+                Bigpow pow =GameObjectPool.recycle(Bigpow.class);
+                pow.relativePosition.set(this.relativePosition);
+            }
             enemyExplosion.play();
         }
     }
