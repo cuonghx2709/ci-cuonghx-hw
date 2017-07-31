@@ -31,7 +31,10 @@ public class Player extends GameObject implements PhysicBody {
 
     Sphere spherel = new Sphere();
     Sphere spherer = new Sphere();
+    public float hp = 3;
+    PlayerExplosion playerExplosion;
     Effect effect;
+    Effect dead;
 
 
 
@@ -76,6 +79,8 @@ public class Player extends GameObject implements PhysicBody {
         spherer.relativePosition.set(20,0);
         Sphere.instancer = spherer;
         children.add(spherer);
+        this.effect = new Effect("assets/music/sfx/player-shoot.wav");
+        dead = new Effect("assets/music/sfx/player-dead.wav");
 
     }
 
@@ -85,6 +90,12 @@ public class Player extends GameObject implements PhysicBody {
         super.run(parentPosition);
                    move();
         castSpell();
+        if (hp <= 0){
+            isActive = false;
+            playerExplosion = GameObjectPool.recycle(PlayerExplosion.class);
+            playerExplosion.screenPosition.set(screenPosition);
+            dead.play();
+        }
     }
 
     private void castSpell() {
@@ -92,7 +103,7 @@ public class Player extends GameObject implements PhysicBody {
             cooldownCounter.reset();
             PlayerSpell playerSpell = GameObjectPool.recycle(PlayerSpell.class);
             playerSpell.relativePosition.set(this.relativePosition.add(0,-30));
-            this.effect = new Effect("assets/music/sfx/player-shoot.wav");
+
             effect.play();
         }
     }
@@ -138,5 +149,7 @@ public class Player extends GameObject implements PhysicBody {
         return boxCollider;
     }
 
-
+    public void setHp(float hp) {
+        this.hp = hp;
+    }
 }

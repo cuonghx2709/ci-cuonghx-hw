@@ -28,6 +28,7 @@ public class PlayerExplosion extends GameObject {
         Animation animation = (Animation) renderer;
         if (animation.getIndexImage() >= animation.getSize()- 1){
             this.isActive = false;
+            animation.setImageIndex(0);
         }
     }
 }

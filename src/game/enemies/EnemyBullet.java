@@ -3,14 +3,11 @@ package game.enemies;
 import game.Utils;
 import game.bases.BoxCollider;
 import game.bases.GameObject;
-import game.bases.GameObjectPool;
-import game.bases.effect.Effect;
 import game.bases.renderers.ImageRenderer;
 import game.bases.Vector2D;
 import game.bases.physics.Physic;
 import game.bases.physics.PhysicBody;
 import game.players.Player;
-import game.players.PlayerExplosion;
 import game.scenes.Setting;
 
 /**
@@ -46,6 +43,7 @@ public class EnemyBullet extends GameObject implements PhysicBody{
         Player player = Physic.bodyInRect(boxCollider,Player.class);
         if (player!= null){
             this.isActive = false;
+            player.hp -= 1;
         }
     }
 
